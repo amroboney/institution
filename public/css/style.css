@@ -1,0 +1,126 @@
+.navbar-header{
+	float: right;
+}
+
+.navbar-nav{
+	margin-left: 25px;
+}
+
+body {
+	font-family: 'ge_ss_two';
+	font-family: 'DroidKufi-Regular' !important;
+} 
+
+.font-style, td{
+	font-family: 'DroidKufi-Regular' !important;	
+}
+
+@font-face {
+    font-family: 'DroidKufi-Regular';
+    src:url(/fonts/DroidKufi-Regular.ttf);
+    font-weight:100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidKufi-Bold';
+    src:url(/fonts/DroidKufi-Bold.ttf);
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ge_ss_two';
+    src:url(/fonts/ge_ss_two_bold-webfont.ttf);
+    src: url('/fonts/ge_ss_two_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/ge_ss_two_bold-webfont.woff') format('woff'),
+         url('/fonts/ge_ss_two_bold-webfont.ttf') format('truetype');
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ge_ss_two';
+    src: url('/fonts/ge_ss_two_light-webfont.eot');
+    src: url('/fonts/ge_ss_two_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/ge_ss_two_light-webfont.woff') format('woff'),
+         url('/fonts/ge_ss_two_light-webfont.ttf') format('truetype');
+    font-weight:100;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'ge_ss_two';
+    src: url('/fonts/ge_ss_two_medium-webfont.eot');
+    src: url('/fonts/ge_ss_two_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/ge_ss_two_medium-webfont.woff') format('woff'),
+         url('/fonts/ge_ss_two_medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src:url(fonts/OpenSans-Regular.ttf);
+    font-weight:100;
+    font-style: normal;
+    font-weight:regual;
+}
+
+@font-face {
+    font-family: 'Open Sans light';
+    src:url(fonts/OpenSans-Light.ttf);
+    font-weight:100;
+    font-style: normal;
+    font-weight:regual;
+}
+
+input, textarea ,select{
+    border: 2px solid #10DDFF !important;
+    color:#000000;
+    background-color:transparent;
+    font-family:DroidKufi-Regular !important;
+}
+
+ul li a {
+    text-decoration:none;
+    font-family: DroidKufi-Regular;
+    color:#0d6205;
+    font-size:16px;
+}
+
+i{
+    font-size: 20px;
+}
+
+.img-logo{
+    width: 226px;
+    height: 48px;
+    margin-top: 15px;
+}
+
+.logo-fnince{
+    width: 200px;
+}
+
+/*.name-header{
+    font-size: 20px;
+}*/
+
+.en-header{
+    font-size: 10px;
+    margin-top: -18px;
+}
+
+.add-type{
+    width: 214px;
+    margin-left: 22px;
+}
+
+.input-footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 6px;
+}
